@@ -9,6 +9,6 @@ jobs:
   demo: 
     runs-on: ubuntu-latest
 
-steps: 
-  - name: greetings
-    run: echo "Helo from Guru"
+    steps: 
+      - name: greetings
+        run: echo "Helo from Guru"
